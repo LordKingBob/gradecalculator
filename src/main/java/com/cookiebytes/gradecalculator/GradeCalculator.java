@@ -1,8 +1,18 @@
 package com.cookiebytes.gradecalculator;
 
-public class GradeCalculator {
-    public static void main(String[] args){
-        System.out.println("It Works");
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
+
+public class GradeCalculator extends Application {
+    public static void main(String[] args){
+        launch();
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        stage.setTitle("Grade Calculator");
+        stage.show();
     }
 }
